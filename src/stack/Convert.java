@@ -24,7 +24,7 @@ public class Convert {
 		Stack<Character> stack = new Stack<>();
 		cov(stack, N, base);
 		while (!stack.empty()) {
-			System.out.print(stack.pop() + " ");
+			System.out.print(stack.pop());
 		}
 	}
 
